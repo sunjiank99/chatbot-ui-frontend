@@ -73,6 +73,12 @@ export const constantRoutes = [
         name: 'Tree',
         component: () => import('@/views/tree/index'),
         meta: { title: 'Tree', icon: 'tree' }
+      },
+      {
+        path: 'stock-chatbot',
+        name: 'StockChatbot',
+        component: () => import('@/views/chatbot/stock-chatbot'),
+        meta: { title: 'StockChatBot', icon: 'eye' }
       }
     ]
   },
